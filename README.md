@@ -24,20 +24,17 @@ Current version: 2.1 beta4.
 * **You do not need to include IE7/IE8.js if you are using IE9.js**
 
 ### PNG
-* The script only fixes images named: *-trans.png
+* The script only fixes images named: ``*-trans.png``
 * If you want the fix to apply to all PNG images then set a global variable as follows:
-
-```
+``
 var IE7_PNG_SUFFIX = ".png";
-```
-
-You must set this variable before including the IE7.js script. Alternatively, you can set the variable inside the IE7.js script element:
-
+``
+* You must set this variable before including the IE7.js script. Alternatively, you can set the variable inside the IE7.js script element:
 ```
 IE7_PNG_SUFFIX=".png";
 ```
 
-The suffix will ignore query string parameters. For more fine-grained control you can also set IE7_PNG_SUFFIX to a RegExp object. If you want to use an alternative PNG solution then set the suffix to something that cannot possibly match:
+The suffix will ignore query string parameters. For more fine-grained control you can also set IE7_PNG_SUFFIX to a RegExp object. If you want to use an [alternative PNG solution](http://www.dillerdesign.com/experiment/DD_belatedPNG/) then set the suffix to something that cannot possibly match:
 
 var IE7_PNG_SUFFIX = ":";
 
