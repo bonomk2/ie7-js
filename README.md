@@ -2,17 +2,18 @@
 Automatically exported from code.google.com/p/ie7-js
 A JavaScript library to make MSIE behave like a standards-compliant browser.
 
-# About
+## About
 IE7.js is a JavaScript library to make Microsoft Internet Explorer behave like a standards-compliant browser. It fixes many HTML and CSS issues and makes transparent PNG work correctly under IE5 and IE6.
 
-# Status
+## Status
 
 Current version: 2.1 beta4.
 
-# Usage
+## Usage
 
-* IE7.js
-* Upgrade MSIE5.5-6 to be compatible with MSIE7.
+### IE7.js
+
+Upgrade MSIE5.5-6 to be compatible with MSIE7.
 
 * IE8.js
 Upgrade MSIE5.5-7 to be compatible with MSIE8.
