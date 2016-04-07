@@ -11,11 +11,10 @@ Current version: 2.1 beta4.
 
 ## Usage
 
-### IE7.js
-
+#### IE7.js
 * Upgrade MSIE5.5-6 to be compatible with MSIE7.
 
-### IE8.js
+#### IE8.js
 * Upgrade MSIE5.5-7 to be compatible with MSIE8.
 * **You do not need to include IE7.js if you are using IE8.js**
 
