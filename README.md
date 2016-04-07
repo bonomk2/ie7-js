@@ -13,19 +13,19 @@ Current version: 2.1 beta4.
 
 ### IE7.js
 
-Upgrade MSIE5.5-6 to be compatible with MSIE7.
+* Upgrade MSIE5.5-6 to be compatible with MSIE7.
 
-* IE8.js
-Upgrade MSIE5.5-7 to be compatible with MSIE8.
-You do not need to include IE7.js if you are using IE8.js
+### IE8.js
+* Upgrade MSIE5.5-7 to be compatible with MSIE8.
+* You do not need to include IE7.js if you are using IE8.js
 
-* IE9.js
-Upgrade MSIE5.5-8 to be compatible with modern browsers.
-You do not need to include IE7/IE8.js if you are using IE9.js
+### IE9.js
+* Upgrade MSIE5.5-8 to be compatible with modern browsers.
+* You do not need to include IE7/IE8.js if you are using IE9.js
 
-* PNG
-The script only fixes images named: *-trans.png
-If you want the fix to apply to all PNG images then set a global variable as follows:
+### PNG
+* The script only fixes images named: *-trans.png
+* If you want the fix to apply to all PNG images then set a global variable as follows:
 
 ```
 var IE7_PNG_SUFFIX = ".png";
