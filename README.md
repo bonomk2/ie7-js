@@ -22,12 +22,12 @@ Current version: 2.1 beta4.
 * **You do not need to include IE7/IE8.js if you are using IE9.js**
 
 ### PNG
-* The script only fixes images named: ``*-trans.png``
-* If you want the fix to apply to all PNG images then set a global variable as follows:
+The script only fixes images named: ``*-trans.png``
+If you want the fix to apply to all PNG images then set a global variable as follows:
 ``
 var IE7_PNG_SUFFIX = ".png";
 ``
-* You must set this variable before including the IE7.js script. Alternatively, you can set the variable inside the IE7.js script element:
+You must set this variable before including the IE7.js script. Alternatively, you can set the variable inside the IE7.js script element:
 ``
 IE7_PNG_SUFFIX=".png";
 ``
